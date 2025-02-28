@@ -7,33 +7,33 @@ export const DUMMY_POSTS = [
   {
     id: 1,
     thumbnail: Thumbnail1,
-    category: "education",
+    category: "Education", // Matches the footer
     title: "This is the first post of this blog.",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quaerat voluptate quam aperiam beatae modi praesentium error! Eum distinctio, rem dignissimos consectetur officia placeat cupiditate hic ipsa explicabo laudantium quisquam!",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit...",
     authorID: 3,
   },
   {
     id: 2,
     thumbnail: Thumbnail2,
-    category: "technology",
-    title: "Exploring the Future of Artificial Intelligence",
-    desc: "AI is revolutionizing various industries, from healthcare to finance. In this post, we dive deep into the latest trends and advancements in artificial intelligence.",
+    category: "Investment", // Changed from "Technology" to "Investment"
+    title: "Smart Investment Strategies for Beginners",
+    desc: "Learn how to make smart investment decisions...",
     authorID: 1,
   },
   {
     id: 3,
     thumbnail: Thumbnail3,
-    category: "lifestyle",
+    category: "Lifestyle", // Matches the footer
     title: "10 Healthy Habits for a Better Life",
-    desc: "Developing healthy habits can significantly improve your well-being. This article covers ten easy and effective lifestyle changes for a healthier you.",
+    desc: "Developing healthy habits can significantly improve your well-being...",
     authorID: 2,
   },
   {
     id: 4,
     thumbnail: Thumbnail4,
-    category: "business",
+    category: "Business", // Matches the footer
     title: "How to Start a Successful Online Business",
-    desc: "Starting an online business requires careful planning and execution. Learn key strategies to build a profitable online venture from scratch.",
+    desc: "Starting an online business requires careful planning...",
     authorID: 4,
   },
 ];
