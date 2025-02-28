@@ -11,14 +11,14 @@ const PostItem = ({postID, category, title, description, authorID, thumbnail}) =
             <img src={thumbnail} alt={title}/>
         </div>
         <div className="post__content">
-            <Link to={'/posts/${posyID}'}>
+        <Link to={`/posts/${postID}`}>
             <h3>{postTitle}</h3>
             </Link>
             <p>{shortDescription}</p>
         </div>
         <div className="post__footer">
             <PostAuthor />
-            <Link to={'/posts/categories/${category}'} className='btn category'>{category}</Link>
+            <Link to={`/posts/categories/${category}`} className='btn category'>{category}</Link>
         </div>
     </article>
   )
