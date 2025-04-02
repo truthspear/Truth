@@ -26,6 +26,7 @@ const Header = () => {
                 <li><Link to="/profile/sdfsdf" onClick={closeNavHeader}>Ernest Achiever</Link></li>
                 <li><Link to="/create" onClick={closeNavHeader}>Create Post</Link></li>
                 <li><Link to="/authors" onClick={closeNavHeader}>Authors</Link></li>
+                <li><Link to="/contact us" onClick={closeNavHeader}>Contact Us</Link></li>
                 <li><Link to="/logout" onClick={closeNavHeader}>LogOut</Link></li>
             </ul>}
             <button className="nav__toggle-btn" onClick={() => setIsNavShowing(!isNavShowing)}>
