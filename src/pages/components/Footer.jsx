@@ -37,7 +37,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="footer__copyright">
-        <small>All Rights Reserved &copy; Copyright, ByteBlogs.</small>
+        <small>All Rights Reserved &copy; Copyright, TruthSpear.</small>
       </div>
     </footer>
   );

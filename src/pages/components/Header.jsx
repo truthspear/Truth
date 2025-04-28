@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../images/ByteBlog.png'
+import Logo from '../images/TruthSpear Logo.png'
 import {FaBars} from "react-icons/fa"
 import {AiOutlineClose} from "react-icons/ai"
 
